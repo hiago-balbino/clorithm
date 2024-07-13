@@ -1,6 +1,6 @@
 (ns clorithm.exm.elyses-destructured-enchantments.elyses-destructured-enchantments-test
   (:require [clojure.test :refer :all]
-            [elyses-destructured-enchantments :refer :all]))
+            [clorithm.exm.elyses-destructured-enchantments.elyses-destructured-enchantments :refer :all]))
 
 (deftest ^{:task 1} first-card-single-test
   (is (= 3 (first-card [3]))))
